@@ -26,7 +26,7 @@ const displayBooks = () => {
   bookList.innerHTML = "";
   bookCollection.forEach((book) => {
     const bookElement = document.createElement("div");
-    bookElement.innerHTML = `<p>Title: ${book.title}</p><p>Author: ${book.author}</p><button onclick="removeBook('${book.title}')">Remove</button>`;
+    bookElement.innerHTML = `<p>Title: ${book.title}</p><p>Author: ${book.author}</p><button onclick="removeBook('${book.title}')">Remove</button><hr>`;
     bookList.appendChild(bookElement);
   });
 };
