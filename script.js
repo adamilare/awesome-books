@@ -5,6 +5,9 @@ let bookCollection = JSON.parse(localStorage.getItem("bookCollection")) || [];
 const addBook = () => {
   const title = document.getElementById("title-input").value;
   const author = document.getElementById("author-input").value;
+  // if book already exists in collection, don't add it again
+  if (bookCollection.some((book) => book.title === title)) return;
+
   bookCollection.push({ title, author });
   localStorage.setItem("bookCollection", JSON.stringify(bookCollection));
   displayBooks();
