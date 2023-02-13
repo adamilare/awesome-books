@@ -15,7 +15,7 @@ const addBook = () => {
 const removeBook = (title) => { // eslint-disable-line
   bookCollection = bookCollection.filter((book) => book.title !== title);
   localStorage.setItem('bookCollection', JSON.stringify(bookCollection));
-  displayBooks();
+  displayBooks(); //eslint-disable-line
 };
 
 // Display all books in the collection
