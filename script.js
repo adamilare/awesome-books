@@ -11,7 +11,7 @@ const addBook = () => {
   displayBooks(); // eslint-disable-line
 };
 
-// Remove book from collection
+// Remove book from collection // Remove duplicates 
 const removeBook = (title) => { // eslint-disable-line
   bookCollection = bookCollection.filter((book) => book.title !== title);
   localStorage.setItem('bookCollection', JSON.stringify(bookCollection));
