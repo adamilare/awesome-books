@@ -47,10 +47,10 @@ Follow these steps:
 
 👤 **Ada Rachel**
 
-- GitHub: [@adarachel](https://github.com/adarachel))
+- GitHub: [@adarachel](https://github.com/adarachel)
 
-👤 **Ada Rachel**
-- GitHub: [@adamilare](https://github.com/adamilare))
+👤 **Damilare**
+- GitHub: [@adamilare](https://github.com/adamilare)
 
 ## 🤝 Contributing
 
