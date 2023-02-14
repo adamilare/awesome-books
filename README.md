@@ -6,7 +6,7 @@
 
 ### Tech Stack <a name="tech-stack"></a>
 
-> - HTML
+- HTML
 - Javascript
 - Visual Studio Code
 - Github
@@ -72,6 +72,7 @@ A text editor like installed Atom, VS-code, etc;
 Terminal or commandline;
 Internet connection.
 
+<!--
 ### Setup
 
 Clone this repository to your desired folder:
@@ -79,6 +80,7 @@ Clone this repository to your desired folder:
 sh
   cd my-folder
   git clone git@github.com:myaccount/my-project.git
+-->
 
 ### Deployment
 
@@ -108,7 +110,7 @@ Follow these steps:
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- FUTURE FEATURES -->
+<!-- FUTURE FEATURES
 
 ## 🔭 Future Features <a name="future-features"></a>
 
@@ -119,6 +121,7 @@ Follow these steps:
 - [ ] **[new_feature_3]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+-->
 
 <!-- CONTRIBUTING -->
 
@@ -146,7 +149,7 @@ Feel free to check the [issues page](https://github.com/adamilare/awesome-books/
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- FAQ (optional) -->
+<!-- FAQ (optional)
 
 ## ❓ FAQ (OPTIONAL) <a name="faq"></a>
 
@@ -161,6 +164,7 @@ Feel free to check the [issues page](https://github.com/adamilare/awesome-books/
   - [Answer_2]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+-->
 
 <!-- LICENSE -->
 
