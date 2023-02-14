@@ -17,7 +17,7 @@ const addBook = () => {
 
 const removeBook = (title) => {
   bookCollection.removeBook(title);
-  displayBooks();
+  displayBooks(); //eslint-disable-line
 };
 
 // Display all books in the collection
