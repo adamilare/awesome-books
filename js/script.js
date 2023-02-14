@@ -28,7 +28,7 @@ const displayBooks = () => {
     const bookElement = document.createElement('div');
     bookElement.classList.add('book-item');
     bookElement.innerHTML = `<p><span class="book-title">"${book.title}" </span> <span class="book-author"> by ${book.author} </span><button data-ref="${book.title}">Remove</button> </p>`;
-    bookElement.querySelector("button").addEventListener('click', () => {
+    bookElement.querySelector('button').addEventListener('click', () => {
       removeBook(book.title);
     });
     bookList.appendChild(bookElement);
