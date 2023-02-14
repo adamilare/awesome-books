@@ -1,27 +1,70 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
+# 📖 AWESOME BOOKS WEB APP <a name="about-project"></a>
 
-# Awesome Books Project
-### Project Description:
- "AWESOME BOOKS" is a simple website that displays a list of books and allows you to add and remove books from that list.
+> **["Awesome books"]** is a simple website that displays a list of books and allows you to add and remove books from that list.
 
-## Built With
+## 🛠 Built With <a name="built-with"></a>
+
+### Tech Stack <a name="tech-stack"></a>
 
 - HTML
 - Javascript
-
-
-## List Of Technologies
-
 - Visual Studio Code
 - Github
 
-## Getting Started
+<!--
+<details>
+  <summary>Client</summary>
+  <ul>
+    <li><a href="https://reactjs.org/">React.js</a></li>
+  </ul>
+</details>
 
-To get a local copy up and running follow these simple example steps.
+<details>
+  <summary>Server</summary>
+  <ul>
+    <li><a href="https://expressjs.com/">Express.js</a></li>
+  </ul>
+</details>
+
+<details>
+<summary>Database</summary>
+  <ul>
+    <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
+  </ul>
+</details>
+-->
+
+<!-- Features -->
+
+### Key Features <a name="key-features"></a>
+
+> Describe between 1-3 key features of the application.
+
+<!--
+- **[key_feature_1]**
+- **[key_feature_2]**
+- **[key_feature_3]**
+-->
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- LIVE DEMO -->
+
+## 🚀 Live Demo <a name="live-demo"></a>
+
+>  [Live Demo Link](https://yourdeployedapplicationlink.com)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- GETTING STARTED -->
+
+## 💻 Getting Started <a name="getting-started"></a>
+
+> To get a local copy up and running, follow these steps.
 
 ### Prerequisites
 
-You will need:
+In order to run this project you will need:
 
 A laptop or tablet, preferably a laptop;
 A browser installed like Chrome, Firefox, etc;
@@ -29,7 +72,17 @@ A text editor like installed Atom, VS-code, etc;
 Terminal or commandline;
 Internet connection.
 
-### Setup, Install, and Usage
+<!--
+### Setup
+
+Clone this repository to your desired folder:
+
+sh
+  cd my-folder
+  git clone git@github.com:myaccount/my-project.git
+-->
+
+### Deployment
 
 Proceed to follow these steps:
 
@@ -42,30 +95,79 @@ Follow these steps:
 - finally, you have the repository on your local computer storage. You can now open your text editor and import the repository to start making changes.
 
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## Author
+<!-- AUTHORS -->
 
-👤 **Ada Rachel**
+## 👥 Authors <a name="authors"></a>
+
+> 👤 **Ada Rachel**
 
 - GitHub: [@adarachel](https://github.com/adarachel)
 
 👤 **Damilare**
 - GitHub: [@adamilare](https://github.com/adamilare)
 
-## 🤝 Contributing
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- FUTURE FEATURES
+
+## 🔭 Future Features <a name="future-features"></a>
+
+> Describe 1 - 3 features you will add to the project.
+
+- [ ] **[new_feature_1]**
+- [ ] **[new_feature_2]**
+- [ ] **[new_feature_3]**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+-->
+
+<!-- CONTRIBUTING -->
+
+## 🤝 Contributing <a name="contributing"></a>
 
 Contributions, issues, and feature requests are welcome!
 
 Feel free to check the [issues page](https://github.com/adamilare/awesome-books/issues).
 
-## Show your support
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-Give a ⭐️ if you like this project!
+<!-- SUPPORT -->
 
-## Acknowledgments
+## ⭐️ Show your support <a name="support"></a>
 
-- Microverse 
+> Give a ⭐️ if you like this project!
 
-## 📝 License
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-This project is [MIT](./MIT.md) licensed.
+<!-- ACKNOWLEDGEMENTS -->
+
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
+
+> Microverse 
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- FAQ (optional)
+
+## ❓ FAQ (OPTIONAL) <a name="faq"></a>
+
+> Add at least 2 questions new developers would ask when they decide to use your project.
+
+- **[Question_1]**
+
+  - [Answer_1]
+
+- **[Question_2]**
+
+  - [Answer_2]
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+-->
+
+<!-- LICENSE -->
+
+## 📝 License <a name="license"></a>
+
+This project is [MIT](./LICENSE) licensed.
