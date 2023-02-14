@@ -1,129 +1,103 @@
-# 📖 AWESOME BOOKS WEB APP <a name="about-project"></a>
+<div align="center">
+  <h3><b>Awesome books</b></h3>
 
-> **["Awesome books"]** is a simple website that displays a list of books and allows you to add and remove books from that list.
+</div>
+# 📗 Table of Contents
+
+- [📖 About the Project](#about-project)
+  - [🛠 Built With](#built-with)
+    - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
+  - [🚀 Live Demo](#live-demo)
+- [💻 Getting Started](#getting-started)
+  - [Setup](#setup)
+  - [Prerequisites](#prerequisites)
+  - [Usage](#usage)
+- [👥 Authors](#authors)
+- [🤝 Contributing](#contributing)
+- [⭐️ Show your support](#support)
+- [🙏 Acknowledgements](#acknowledgements)
+- [📝 License](#license)
+
+# 📖 Awesome books <a name="about-project"></a>
+**Awesome books** A basic website that allows users to add/remove books from a list
 
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
 
-- HTML
-- Javascript
-- Visual Studio Code
-- Github
-
-<!--
 <details>
   <summary>Client</summary>
   <ul>
-    <li><a href="https://reactjs.org/">React.js</a></li>
+    <li>HTML</li>
+    <li>Javascript</li>
+    <li>CSS</li>
   </ul>
 </details>
-
-<details>
-  <summary>Server</summary>
-  <ul>
-    <li><a href="https://expressjs.com/">Express.js</a></li>
-  </ul>
-</details>
-
-<details>
-<summary>Database</summary>
-  <ul>
-    <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
-  </ul>
-</details>
--->
-
-<!-- Features -->
 
 ### Key Features <a name="key-features"></a>
 
-> Describe between 1-3 key features of the application.
 
-<!--
-- **[key_feature_1]**
-- **[key_feature_2]**
-- **[key_feature_3]**
--->
+- **Has functionality to add a book author and title**
+- **Has functionality to add a print saved books**
+- **Has functionality to add a remove a saved book by id**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- LIVE DEMO -->
-
-## 🚀 Live Demo <a name="live-demo"></a>
-
->  [Live Demo Link](https://yourdeployedapplicationlink.com)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-> To get a local copy up and running, follow these steps.
+> Describe how a new developer could make use of your project.
+
+To get a local copy up and running, follow these steps.
 
 ### Prerequisites
 
-In order to run this project you will need:
 
-A laptop or tablet, preferably a laptop;
-A browser installed like Chrome, Firefox, etc;
-A text editor like installed Atom, VS-code, etc;
-Terminal or commandline;
-Internet connection.
+In order to run this project you need:
 
-<!--
+- A [browser](https://www.google.com/search?q=what+is+a+browser&oq=what+is+a+browser&aqs=chrome..69i57.2748j0j1&sourceid=chrome&ie=UTF-8) of your choice
+- That you have set up Git on you desired computer
+
 ### Setup
 
 Clone this repository to your desired folder:
 
-sh
-  cd my-folder
-  git clone git@github.com:myaccount/my-project.git
--->
+```sh
+  cd your-desired-folder
+  git clone git@github.com:adamilare/awesome-books.git
+```
 
-### Deployment
+### Usage
 
-Proceed to follow these steps:
+To run the project, execute the following command:
 
-Follow these steps:
-
-- Create a folder in the local storage of your computer which will contain the repository;
-- open your browser and go to [the project's repository on github](https://github.com/adamilare/awesome-books);
-- Click on the `code button` and copy the https link that is provided on the dropdown;
-- open terminal or commandline from the folder you created in the first step, and type in the command, "git clone " and then paste the url you copied on the previous step.
-- finally, you have the repository on your local computer storage. You can now open your text editor and import the repository to start making changes.
-
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- AUTHORS -->
+- open the repo folder `awesome-books`
+- Rightclick on the index.html file and select open in the browser
 
 ## 👥 Authors <a name="authors"></a>
 
-> 👤 **Ada Rachel**
+👤 **Ada Rachel**
 
 - GitHub: [@adarachel](https://github.com/adarachel)
 
 👤 **Damilare**
+
 - GitHub: [@adamilare](https://github.com/adamilare)
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- FUTURE FEATURES
+ FUTURE FEATURES
 
 ## 🔭 Future Features <a name="future-features"></a>
 
 > Describe 1 - 3 features you will add to the project.
 
-- [ ] **[new_feature_1]**
-- [ ] **[new_feature_2]**
-- [ ] **[new_feature_3]**
+- [ ] **[add footer section]**
+- [ ] **[add other pages]**
+- [ ] **[unknown future feature]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
--->
-
-<!-- CONTRIBUTING -->
 
 ## 🤝 Contributing <a name="contributing"></a>
 
@@ -133,41 +107,24 @@ Feel free to check the [issues page](https://github.com/adamilare/awesome-books/
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- SUPPORT -->
-
 ## ⭐️ Show your support <a name="support"></a>
 
-> Give a ⭐️ if you like this project!
+
+If you like this project...
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- ACKNOWLEDGEMENTS -->
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-> Microverse 
+> Give credit to everyone who inspired your codebase.
+
+I would like to thank [Ada Rachel](https://github.com/adarachel) my collaboration partner on this challenge
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- FAQ (optional)
-
-## ❓ FAQ (OPTIONAL) <a name="faq"></a>
-
-> Add at least 2 questions new developers would ask when they decide to use your project.
-
-- **[Question_1]**
-
-  - [Answer_1]
-
-- **[Question_2]**
-
-  - [Answer_2]
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
--->
-
-<!-- LICENSE -->
 
 ## 📝 License <a name="license"></a>
 
 This project is [MIT](./LICENSE) licensed.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
