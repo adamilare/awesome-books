@@ -1,71 +1,130 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
+<div align="center">
+  <h3><b>Awesome books</b></h3>
 
-# Awesome Books Project
-### Project Description:
- "AWESOME BOOKS" is a simple website that displays a list of books and allows you to add and remove books from that list.
+</div>
+# 📗 Table of Contents
 
-## Built With
+- [📖 About the Project](#about-project)
+  - [🛠 Built With](#built-with)
+    - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
+  - [🚀 Live Demo](#live-demo)
+- [💻 Getting Started](#getting-started)
+  - [Setup](#setup)
+  - [Prerequisites](#prerequisites)
+  - [Usage](#usage)
+- [👥 Authors](#authors)
+- [🤝 Contributing](#contributing)
+- [⭐️ Show your support](#support)
+- [🙏 Acknowledgements](#acknowledgements)
+- [📝 License](#license)
 
-- HTML
-- Javascript
+# 📖 Awesome books <a name="about-project"></a>
+**Awesome books** A basic website that allows users to add/remove books from a list
+
+## 🛠 Built With <a name="built-with"></a>
+
+### Tech Stack <a name="tech-stack"></a>
+
+<details>
+  <summary>Client</summary>
+  <ul>
+    <li>HTML</li>
+    <li>Javascript</li>
+    <li>CSS</li>
+  </ul>
+</details>
+
+### Key Features <a name="key-features"></a>
 
 
-## List Of Technologies
+- **Has functionality to add a book author and title**
+- **Has functionality to add a print saved books**
+- **Has functionality to add a remove a saved book by id**
 
-- Visual Studio Code
-- Github
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## Getting Started
+## 💻 Getting Started <a name="getting-started"></a>
 
-To get a local copy up and running follow these simple example steps.
+> Describe how a new developer could make use of your project.
+
+To get a local copy up and running, follow these steps.
 
 ### Prerequisites
 
-You will need:
 
-A laptop or tablet, preferably a laptop;
-A browser installed like Chrome, Firefox, etc;
-A text editor like installed Atom, VS-code, etc;
-Terminal or commandline;
-Internet connection.
+In order to run this project you need:
 
-### Setup, Install, and Usage
+- A [browser](https://www.google.com/search?q=what+is+a+browser&oq=what+is+a+browser&aqs=chrome..69i57.2748j0j1&sourceid=chrome&ie=UTF-8) of your choice
+- That you have set up Git on you desired computer
 
-Proceed to follow these steps:
+### Setup
 
-Follow these steps:
+Clone this repository to your desired folder:
 
-- Create a folder in the local storage of your computer which will contain the repository;
-- open your browser and go to [the project's repository on github](https://github.com/adamilare/awesome-books);
-- Click on the `code button` and copy the https link that is provided on the dropdown;
-- open terminal or commandline from the folder you created in the first step, and type in the command, "git clone " and then paste the url you copied on the previous step.
-- finally, you have the repository on your local computer storage. You can now open your text editor and import the repository to start making changes.
+```sh
+  cd your-desired-folder
+  git clone git@github.com:adamilare/awesome-books.git
+```
 
+### Usage
 
+To run the project, execute the following command:
 
-## Author
+- open the repo folder `awesome-books`
+- Rightclick on the index.html file and select open in the browser
+
+## 👥 Authors <a name="authors"></a>
 
 👤 **Ada Rachel**
 
 - GitHub: [@adarachel](https://github.com/adarachel)
 
 👤 **Damilare**
+
 - GitHub: [@adamilare](https://github.com/adamilare)
 
-## 🤝 Contributing
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+ FUTURE FEATURES
+
+## 🔭 Future Features <a name="future-features"></a>
+
+> Describe 1 - 3 features you will add to the project.
+
+- [ ] **[add footer section]**
+- [ ] **[add other pages]**
+- [ ] **[unknown future feature]**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 🤝 Contributing <a name="contributing"></a>
 
 Contributions, issues, and feature requests are welcome!
 
 Feel free to check the [issues page](https://github.com/adamilare/awesome-books/issues).
 
-## Show your support
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-Give a ⭐️ if you like this project!
+## ⭐️ Show your support <a name="support"></a>
 
-## Acknowledgments
 
-- Microverse 
+If you like this project...
 
-## 📝 License
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-This project is [MIT](./MIT.md) licensed.
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
+
+> Give credit to everyone who inspired your codebase.
+
+I would like to thank [Ada Rachel](https://github.com/adarachel) my collaboration partner on this challenge
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+## 📝 License <a name="license"></a>
+
+This project is [MIT](./LICENSE) licensed.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>

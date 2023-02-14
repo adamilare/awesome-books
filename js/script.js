@@ -1,20 +1,22 @@
-// Check if book collection is already stored in local storage
-let bookCollection = JSON.parse(localStorage.getItem('bookCollection')) || [];
+import Book from './Book.js';
+import BookCollection from './BookCollection.js';
+
+const bookCollection = new BookCollection();
 
 // Add book to collection
 const addBook = () => {
   const title = document.getElementById('title-input').value;
   const author = document.getElementById('author-input').value;
-  bookCollection.push({ title, author });
-  localStorage.setItem('bookCollection', JSON.stringify(bookCollection));
+
+  bookCollection.addBook(new Book(title, author));
 
   displayBooks(); // eslint-disable-line
 };
 
 // Remove book from collection // Remove duplicates
-const removeBook = (title) => { // eslint-disable-line
-  bookCollection = bookCollection.filter((book) => book.title !== title);
-  localStorage.setItem('bookCollection', JSON.stringify(bookCollection));
+
+const removeBook = (title) => {
+  bookCollection.removeBook(title);
   displayBooks(); //eslint-disable-line
 };
 
@@ -22,9 +24,13 @@ const removeBook = (title) => { // eslint-disable-line
 const displayBooks = () => {
   const bookList = document.getElementById('book-list');
   bookList.innerHTML = '';
-  bookCollection.forEach((book) => {
+  bookCollection.books.forEach((book) => {
     const bookElement = document.createElement('div');
-    bookElement.innerHTML = `<p>Title: ${book.title}</p><p>Author: ${book.author}</p><button onclick="removeBook('${book.title}')">Remove</button>`;
+    bookElement.classList.add('book-item');
+    bookElement.innerHTML = `<p><span class="book-title">"${book.title}" </span> <span class="book-author"> by ${book.author} </span><button data-ref="${book.title}">Remove</button> </p>`;
+    bookElement.querySelector('button').addEventListener('click', () => {
+      removeBook(book.title);
+    });
     bookList.appendChild(bookElement);
   });
 };
