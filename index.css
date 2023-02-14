@@ -15,7 +15,11 @@ html {
   box-sizing: inherit;
 }
 
-h1, h2 {
+h1, {
+  font-family: 'Comic Neue', cursive;
+}
+
+h2 {
   font-family: 'Comic Neue', cursive;
 }
 
