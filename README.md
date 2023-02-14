@@ -1,4 +1,4 @@
-# 📖 [AWESOME BOOKS WEB APP] <a name="about-project"></a>
+# 📖 AWESOME BOOKS WEB APP <a name="about-project"></a>
 
 > **["Awesome books"]** is a simple website that displays a list of books and allows you to add and remove books from that list.
 
@@ -6,8 +6,12 @@
 
 ### Tech Stack <a name="tech-stack"></a>
 
-> Describe the tech stack and include only the relevant sections that apply to your project.
+> - HTML
+- Javascript
+- Visual Studio Code
+- Github
 
+<!--
 <details>
   <summary>Client</summary>
   <ul>
@@ -28,6 +32,7 @@
     <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
   </ul>
 </details>
+-->
 
 <!-- Features -->
 
@@ -35,9 +40,11 @@
 
 > Describe between 1-3 key features of the application.
 
+<!--
 - **[key_feature_1]**
 - **[key_feature_2]**
 - **[key_feature_3]**
+-->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -45,9 +52,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-> Add a link to your deployed project.
-
-- [Live Demo Link](https://yourdeployedapplicationlink.com)
+>  [Live Demo Link](https://yourdeployedapplicationlink.com)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -55,83 +60,38 @@
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-> Describe how a new developer could make use of your project.
-
-To get a local copy up and running, follow these steps.
+> To get a local copy up and running, follow these steps.
 
 ### Prerequisites
 
-In order to run this project you need:
+In order to run this project you will need:
 
-<!--
-Example command:
-
-```sh
- gem install rails
-```
- -->
+A laptop or tablet, preferably a laptop;
+A browser installed like Chrome, Firefox, etc;
+A text editor like installed Atom, VS-code, etc;
+Terminal or commandline;
+Internet connection.
 
 ### Setup
 
 Clone this repository to your desired folder:
 
-<!--
-Example commands:
-
-```sh
+sh
   cd my-folder
   git clone git@github.com:myaccount/my-project.git
-```
---->
-
-### Install
-
-Install this project with:
-
-<!--
-Example command:
-
-```sh
-  cd my-project
-  gem install
-```
---->
-
-### Usage
-
-To run the project, execute the following command:
-
-<!--
-Example command:
-
-```sh
-  rails server
-```
---->
-
-### Run tests
-
-To run tests, run the following command:
-
-<!--
-Example command:
-
-```sh
-  bin/rails test test/models/article_test.rb
-```
---->
 
 ### Deployment
 
-You can deploy this project using:
+Proceed to follow these steps:
 
-<!--
-Example:
+Follow these steps:
 
-```sh
+- Create a folder in the local storage of your computer which will contain the repository;
+- open your browser and go to [the project's repository on github](https://github.com/adamilare/awesome-books);
+- Click on the `code button` and copy the https link that is provided on the dropdown;
+- open terminal or commandline from the folder you created in the first step, and type in the command, "git clone " and then paste the url you copied on the previous step.
+- finally, you have the repository on your local computer storage. You can now open your text editor and import the repository to start making changes.
 
-```
- -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -139,19 +99,12 @@ Example:
 
 ## 👥 Authors <a name="authors"></a>
 
-> Mention all of the collaborators of this project.
+> 👤 **Ada Rachel**
 
-👤 **Author1**
+- GitHub: [@adarachel](https://github.com/adarachel)
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+👤 **Damilare**
+- GitHub: [@adamilare](https://github.com/adamilare)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -173,7 +126,7 @@ Example:
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](https://github.com/adamilare/awesome-books/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -181,9 +134,7 @@ Feel free to check the [issues page](../../issues/).
 
 ## ⭐️ Show your support <a name="support"></a>
 
-> Write a message to encourage readers to support your project
-
-If you like this project...
+> Give a ⭐️ if you like this project!
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -191,9 +142,7 @@ If you like this project...
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-> Give credit to everyone who inspired your codebase.
-
-I would like to thank...
+> Microverse 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
