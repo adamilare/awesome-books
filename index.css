@@ -15,7 +15,10 @@ html {
   box-sizing: inherit;
 }
 
-body, h1, p, ul {
+body,
+h1,
+p,
+ul {
   font-family: 'Comic Neue', cursive;
 }
 
@@ -28,7 +31,7 @@ h2 {
   justify-content: space-between;
   border: 5px solid #000;
   border-radius: 5px;
-  padding: 10px;  
+  padding: 10px;
 }
 
 .menu > div {
@@ -41,9 +44,6 @@ h2 {
   border-left: 2px solid #000;
   padding-left: 10px;
   margin-right: 1em;
-}
-
-.menu a {
   cursor: pointer;
   text-decoration: none;
   color: #000;
@@ -127,15 +127,15 @@ form {
   cursor: pointer;
 }
 
-#add-button:hover {
-  color: #fff;
-  background-color: green;
-}
-
 form #add-button {
   width: 50px;
   align-self: flex-end;
   border: 1px solid black;
+}
+
+#add-button:hover {
+  color: #fff;
+  background-color: green;
 }
 
 #title-input {
