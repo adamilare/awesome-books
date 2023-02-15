@@ -38,7 +38,7 @@ function displayBooks() {
   bookCollection.books.forEach((book) => {
     const bookElement = document.createElement('div');
     bookElement.classList.add('book-item');
-    bookElement.innerHTML =`
+    bookElement.innerHTML = `
     <p><span class="book-title">"${book.title}" </span> <span class="book-author"> 
     by ${book.author} </span><button class="remove-btn" 
     data-ref="${book.title}">Remove</button> </p>
