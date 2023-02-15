@@ -6,26 +6,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Awesome Books Project</title>
 
-    <link rel="stylesheet" href="index.css"/>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <section id="books">
-      <h1>All Awesome Books</h1>
-      <div id="book-list"></div>
-      <!-- Books will be displayed here -->
-    </section>
-    <section id="add-book">
-      <span class="divide-line"></span>
-      <h2>Add A New Book</h2>
-      <form id="add-new-book">
-        <input type="text" id="title-input" placeholder="Title" />
-        <input type="text" id="author-input" placeholder="Author" />
-        <button type="button" id="add-button">Add</button>
-      </form>
-    </section>
+    <nav>
+      <span>Awesome Books</span>
+      <div>
+        <a id="books-list">List</a><a id="book-add">Add New</a
+        ><a id="contact">Contact</a>
+      </div>
+    </nav>
+    <div><span id="today-date"></span></div>
+    <section id="contents"></section>
+    <footer>
+      <span>Copyright ...</span>
+    </footer>
 
     <script type="module" src="js/script.js"></script>
   </body>
