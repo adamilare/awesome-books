@@ -79,8 +79,15 @@ To run the project, execute the following command:
 👤 **Ada Rachel**
 
 - GitHub: [@adarachel](https://github.com/adarachel)
+- LinkedIn: [@adarachel](https://www.linkedin.com/in/adarachel/)
+- Twitter: [@adarachel_dev](https://twitter.com/adarachel_dev)
 
-👤 **Damilare**
+  **Damilare Adepoju**
+
+- GitHub: [@adamilare](https://github.com/adamilare)
+- Twitter: [@mailtodare](https://twitter.com/mailtodare)
+- LinkedIn: [adamilare](https://linkedin.com/in/adamilare)
+- GitUp Page: [Capstone-1](https://adamilare.github.io/Capstone-1/)
 
 - GitHub: [@adamilare](https://github.com/adamilare)
 
