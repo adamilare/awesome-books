@@ -15,12 +15,60 @@ html {
   box-sizing: inherit;
 }
 
-h1, {
+body,
+h1,
+p,
+ul {
   font-family: 'Comic Neue', cursive;
 }
 
 h2 {
   font-family: 'Comic Neue', cursive;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  border: 5px solid #000;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.menu > div {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 10px;
+}
+
+.menu a {
+  border-left: 2px solid #000;
+  padding-left: 10px;
+  margin-right: 1em;
+  cursor: pointer;
+  text-decoration: none;
+  color: #000;
+}
+
+.menu a:hover {
+  color: #fff;
+  background-color: green;
+}
+
+footer {
+  font-family: 'Comic Neue', cursive;
+  display: flex;
+  border: 5px solid #000;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.remove-btn {
+  cursor: pointer;
+}
+
+.remove-btn:hover {
+  color: #fff;
+  background-color: green;
 }
 
 section {
@@ -76,6 +124,7 @@ form {
 
 #add-button {
   font-family: 'Comic Neue', cursive;
+  cursor: pointer;
 }
 
 form #add-button {
@@ -84,10 +133,28 @@ form #add-button {
   border: 1px solid black;
 }
 
+#add-button:hover {
+  color: #fff;
+  background-color: green;
+}
+
 #title-input {
   border: 2px solid black;
 }
 
 #author-input {
   border: 2px solid black;
+}
+
+.parent {
+  display: flex;
+  justify-content: end;
+}
+
+.parent #today-date {
+  margin-right: 1em;
+}
+
+.parent #today-time {
+  margin-right: 1em;
 }
