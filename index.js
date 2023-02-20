@@ -1,29 +1,15 @@
-import Book from './Book.js';
-import BookCollection from './BookCollection.js';
+import Book from './modules/Book.js';
+import BookCollection from './modules/BookCollection.js';
+import { DateTime } from './modules/luxon.js';
 
 const bookCollection = new BookCollection();
 
+// DateTime
+
 const container = document.getElementById('contents');
 
-// Add book to collection
-const addBook = () => {
-  const title = document.getElementById('title-input').value;
-  const author = document.getElementById('author-input').value;
-
-  bookCollection.addBook(new Book(title, author));
-
-  displayBooks(); // eslint-disable-line
-};
-
-// Remove book from collection // Remove duplicates
-
-const removeBook = (title) => {
-  bookCollection.removeBook(title);
-  displayBooks(); //eslint-disable-line
-};
-
 // Display all books in the collection
-function displayBooks() {
+const displayBooks = () => {
   const div = document.createElement('div');
   div.id = 'book-list';
   container.innerHTML = div.outerHTML;
@@ -35,7 +21,7 @@ function displayBooks() {
   h2.textContent = 'All Awesome Books';
   container.insertBefore(h2, bookList);
 
-  bookCollection.books.forEach((book) => {
+  bookCollection.getbooks().forEach((book) => {
     const bookElement = document.createElement('div');
     bookElement.classList.add('book-item');
     bookElement.innerHTML = `
@@ -45,15 +31,29 @@ function displayBooks() {
     `;
     const remBtn = bookElement.querySelector('button');
     remBtn.onclick = () => {
-      removeBook(book.title);
+      removeBook(book.title); // eslint-disable-line no-use-before-define
     };
     bookList.appendChild(bookElement);
   });
+};
 
-  // container.innerHTML = bookList.outerHTML;
-}
+// Add book to collection
+const addBook = () => {
+  const title = document.getElementById('title-input').value;
+  const author = document.getElementById('author-input').value;
 
-function displayAddNew() {
+  bookCollection.addBook(new Book(title, author));
+
+  displayBooks();
+};
+
+// Remove book from collection // Remove duplicates
+const removeBook = (title) => {
+  bookCollection.removeBook(title);
+  displayBooks();
+};
+
+const displayAddNew = () => {
   const div = document.createElement('div');
   div.id = 'add-new-book';
   container.innerHTML = div.outerHTML;
@@ -69,9 +69,9 @@ function displayAddNew() {
       <br><br><br>
       `;
   addNew.querySelector('button').addEventListener('click', addBook);
-}
+};
 
-function displayContact() {
+const displayContact = () => {
   const addNew = document.createElement('div');
   addNew.id = 'add-new-book';
   addNew.innerHTML = `<span class="divide-line"></span>
@@ -85,35 +85,33 @@ function displayContact() {
         <li>Our address: 123 Street, City, Country</li>
       </ul>`;
   container.innerHTML = addNew.outerHTML;
-}
+};
 
-// const bookList =
 document.getElementById('books-list').onclick = displayBooks;
-// const addNew =
 document.getElementById('book-add').onclick = displayAddNew;
-// const contact =
 document.getElementById('contact').onclick = displayContact;
-
 document.getElementById('today-date').textContent = new Date().toDateString();
 
 // select the element where the time will be displayed
-const timeDisplay = document.getElementById('today-time');
+const timeDisplay = document.getElementById('today-date');
 
 // create a function to update the time every second
-function updateTime() {
-  const currentTime = new Date();
-  const hours = currentTime.getHours();
-  const minutes = currentTime.getMinutes();
-  const seconds = currentTime.getSeconds();
-  timeDisplay.textContent = `${hours}:${minutes}:${seconds}`;
-}
+const updateTime = () => {
+  const currentTime = DateTime.now();
+  // const hours = currentTime.getHours();
+  // const minutes = currentTime.getMinutes();
+  // const seconds = currentTime.getSeconds();
+  timeDisplay.textContent = `${currentTime.toLocaleString(
+    DateTime.DATE_FULL,
+  )}, ${currentTime.toLocaleString(DateTime.TIME_WITH_SECONDS)}`;
+};
 
 // call the function once to initialize the time
-updateTime();
+// updateTime();
 
 // update the time every second
 setInterval(updateTime, 1000);
 
 // Display books on page load
-if (bookCollection.books.length > 0) displayBooks();
+if (bookCollection.getbooks.length > 0) displayBooks();
 else displayAddNew();
