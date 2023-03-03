@@ -20,7 +20,8 @@
 - [📝 License](#license)
 
 # 📖 Awesome books <a name="about-project"></a>
-**Awesome books** A basic website that allows users to add/remove books from a list
+> Awesome books is part of Microverse training projects. This project is a basic website that allows a user to add/remove books from a list of collection.
+
 
 ## 🛠 Built With <a name="built-with"></a>
 
