@@ -20,7 +20,7 @@
 - [📝 License](#license)
 
 # 📖 Awesome books <a name="about-project"></a>
-> Awesome books is part of Microverse training projects. This project is a basic website that allows a user to add/remove books from a list of collection.
+> **Awesome books** is part of Microverse training projects. This project is a basic website that allows a user to add/remove books from a list of collection.
 
 
 ## 🛠 Built With <a name="built-with"></a>
@@ -46,9 +46,6 @@
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 💻 Getting Started <a name="getting-started"></a>
-
-> Describe how a new developer could make use of your project.
-
 To get a local copy up and running, follow these steps.
 
 ### Prerequisites
