@@ -20,7 +20,7 @@
 - [📝 License](#license)
 
 # 📖 Awesome books <a name="about-project"></a>
-> **Awesome books** is part of Microverse training projects. This project is a basic website that allows a user to add/remove books from a list of collection.
+**Awesome books** is part of Microverse training projects. This project is a basic website that allows a user to add/remove books from a list of collection.
 
 
 ## 🛠 Built With <a name="built-with"></a>
@@ -37,7 +37,6 @@
 </details>
 
 ### Key Features <a name="key-features"></a>
-
 
 - **Has functionality to add a book author and title**
 - **Has functionality to add a print saved books**
@@ -89,9 +88,6 @@ To run the project, execute the following command:
  FUTURE FEATURES
 
 ## 🔭 Future Features <a name="future-features"></a>
-
-> Describe 1 - 3 features you will add to the project.
-
 - [ ] **[add footer section]**
 - [ ] **[add other pages]**
 - [ ] **[unknown future feature]**
@@ -114,8 +110,6 @@ If you like this project...
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
-
-> Give credit to everyone who inspired your codebase.
 
 I would like to thank [Ada Rachel](https://github.com/adarachel) my collaboration partner on this challenge
 
